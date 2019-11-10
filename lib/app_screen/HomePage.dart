@@ -51,7 +51,27 @@ class _HomePageState extends State<HomePage> {
                   padding:
                       EdgeInsets.only(left: 30, right: 30, top: 60, bottom: 30),
                   child: Image.asset('images/CodeNightLogo.png')),
-              
+                  Container(
+                    child: RaisedButton(
+                      color: Colors.red,
+                      padding: EdgeInsets.only(left: 80.0,right: 80.0),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0)
+                      ),
+                      child:Text("Registration",
+                        style:TextStyle(
+                          fontSize: 20.0,
+                        )
+                      ),
+                      textColor:Colors.white,
+                      
+
+
+                      onPressed: (){
+
+                      }
+                    ),
+                  ),
             ],
           )
         ],
